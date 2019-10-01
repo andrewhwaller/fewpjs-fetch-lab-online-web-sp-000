@@ -5,8 +5,8 @@ function fetchBooks() {
     })
     .then function(json) {
       return json
-    }
-}
+    };
+};
 
 function renderBooks(json) {
   const main = document.querySelector('main')
